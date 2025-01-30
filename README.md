@@ -6,7 +6,7 @@ An easy way to create a help desk form to copy and paste!
 ---
 I made this quick Help Desk Form to copy and paste onto any communicative platform like Slack, so that it is more efficient to type up everything and copy the whole text onto your clipboard with the questions included.
 
-<img src="https://imgur.com/4wHl31Z.png" height="auto" width="90%">
+<img src="https://imgur.com/RkT5ZvY.png" height="auto" width="90%">
 
 Once you paste your text on Slack , use this following keyboard command to automatically implement the formatting built on Slack: <br>
 Windows: `CTRL + Shift + F` <br>
