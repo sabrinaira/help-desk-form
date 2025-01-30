@@ -46,11 +46,7 @@ const HelpDeskForm: React.FC = () => {
   ];
 
   return (
-    <Box sx={{ padding: '20px', maxWidth: 600, margin: 'auto' }}>
-      <Typography variant='h4' gutterBottom>
-        Help Desk Template
-      </Typography>
-
+    <Box>
       {inputs.map((input, index) => (
         <TextField
           key={index}
@@ -71,7 +67,7 @@ const HelpDeskForm: React.FC = () => {
         onClick={handleAdd}
         sx={{ width: '100%', marginBottom: '20px' }}
       >
-        Add
+        Create Clipboard
       </Button>
 
       <Box>
@@ -88,6 +84,7 @@ const HelpDeskForm: React.FC = () => {
             <Typography
               variant='body1'
               sx={{ flexGrow: 1, whiteSpace: 'pre-wrap' }}
+              fontFamily='roboto'
             >
               {text}
             </Typography>
