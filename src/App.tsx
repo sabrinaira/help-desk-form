@@ -1,4 +1,4 @@
-import * as React from 'react';
+import 'react';
 import { Card, CardContent, Divider, Typography, Box } from '@mui/material';
 import HelpDeskForm from './HelpDesk';
 import '@fontsource/roboto/300.css';
