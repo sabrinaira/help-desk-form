@@ -17,7 +17,7 @@ const HelpDeskForm: React.FC = () => {
   const handleAdd = (): void => {
     const combinedText = inputs
       .map((input, index) => `${placeholders[index]} ${input}`) // Include placeholder before input
-      .join('\n'); // Combine text boxes into one string
+      .join('\n\n'); // Combine text boxes into one string
     if (combinedText.trim()) {
       setTexts([...texts, combinedText]); // Add combined text to the texts array
     }
@@ -79,14 +79,16 @@ const HelpDeskForm: React.FC = () => {
               marginBottom: '10px',
               display: 'flex',
               alignItems: 'center',
+              whiteSpace: 'pre-wrap'
             }}
           >
             <Typography
+
               variant='body1'
               sx={{ flexGrow: 1, whiteSpace: 'pre-wrap' }}
             >
               {text}
-            </Typography>
+            </Typography><br></br>
             <Button
               variant='outlined'
               onClick={() => handleCopy(text)}
