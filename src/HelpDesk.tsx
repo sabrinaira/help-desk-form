@@ -84,7 +84,6 @@ const HelpDeskForm: React.FC = () => {
             <Typography
               variant='body1'
               sx={{ flexGrow: 1, whiteSpace: 'pre-wrap' }}
-              fontFamily='roboto'
             >
               {text}
             </Typography>
