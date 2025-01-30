@@ -21,6 +21,8 @@ Once you paste your text on Slack messenger, use this following keyboard command
 Windows: `CTRL + Shift + F` <br>
 MacOS: `CMD + Shift + F`
 
+<img src="https://imgur.com/tYk2UHe.gif" height="auto">
+
 Or just paste it in plain text and use your preferred app's built-in formatting options to manually edit your text there!
 
 ### Technologies:
